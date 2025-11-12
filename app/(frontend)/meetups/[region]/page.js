@@ -2,7 +2,7 @@ import Image from "next/image";
 import mist_forest_img from "@/public/images/mist_forest1.png";
 import MeetupPost from "@/components/ui/meetups/MeetupPost";
 import { getMeetupPosts } from "@/lib/cmsdata";
-import CTAButton from "@/components/ui/CTAButton";
+import Button from "@/components/ui/Button";
 
 
 export default async function Meetup({ params }) {
@@ -25,7 +25,7 @@ export default async function Meetup({ params }) {
     <div className="
       w-9/10 max-w-[120ch] mx-auto mb-[2rem] mt-[-1rem]
     ">
-      <CTAButton href="/meetups">&lt; Back</CTAButton>
+      <Button href="/meetups">&lt; Back</Button>
     </div>
     {meetups.map(m => <MeetupPost key={m._id} meetup={m}/>)}
     {(meetups.length == 0) && (

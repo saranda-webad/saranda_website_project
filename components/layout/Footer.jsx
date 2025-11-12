@@ -83,7 +83,7 @@ export default async function Footer({
       </div>
 
       <p className="text-center mt-[1rem] mx-[-1rem] text-sm">
-        &copy; 2025 Saranda WebOps Team &middot; MIT Licensed
+        &copy; 2025 Saranda WebOps Team &middot; All Rights Reserved
       </p>
     </footer>
   </>

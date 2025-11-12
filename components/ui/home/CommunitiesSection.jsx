@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { twJoin } from "tailwind-merge";
 import { getCommunityCards } from "@/lib/cmsdata";
-import CTAButton from "../CTAButton";
+import Button from "../Button";
 
 
 export default async function CommunitiesSection({
@@ -76,7 +76,7 @@ function CommunityCard({
       <p className="mt-[0.5ch] mb-[2ch]">
         {card.description}
       </p>
-      <CTAButton href={`/community/${card.slug}`}>Community Page</CTAButton>
+      <Button href={`/community/${card.slug}`}>Community Page</Button>
     </div>
   </div>
 }

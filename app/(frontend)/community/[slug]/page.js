@@ -1,4 +1,4 @@
-import CTAButton from "@/components/ui/CTAButton";
+import Button from "@/components/ui/Button";
 import { getCommunity } from "@/lib/cmsdata";
 import Image from "next/image";
 import Link from "next/link";
@@ -43,10 +43,10 @@ export default async function Community({ params }) {
           <div className="flex flex-wrap gap-[1rem] items-center">
             {
               community.joining_form &&
-              <CTAButton
+              <Button
                 href={community.joining_form}
                 target="blank"
-              >Join the Community</CTAButton>
+              >Join the Community</Button>
             }
             <Link
               href="/events"

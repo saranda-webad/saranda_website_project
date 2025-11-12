@@ -60,57 +60,29 @@ We welcome contributions from Saranda members and the open-source community!
    ```bash
    git clone https://github.com/<your-username>/saranda_website.git
    cd saranda_website
+3. **Install dependencies**
+   ```bash
+   npm install
    ```
-3. **Create a feature branch**
-
+4. **Copy the modify the env file**
+   ```bash
+   cp env.example .env.local
+   ```
+5. **Create a feature branch**
    ```bash
    git checkout -b feature/your-feature-name
    ```
-4. **Make your changes**
-5. **Commit your changes** with clear messages
-
+6. **Make your changes**
+7. **Commit your changes** with clear messages
    ```bash
-   git commit -m "new feature description"
+   git commit -m "<type>: short description"
    ```
-6. **Push your branch**
+8. **Push your branch**
 
    ```bash
    git push origin feature/your-feature-name
    ```
-7. Open a **Pull Request (PR)** to the `main` branch of this repository
-
----
-
-## Run it locally
-
-Follow these steps to run the project locally:
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/<your-username>/saranda_website.git
-   cd saranda_website
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
-
-   or
-
-   ```bash
-   yarn install
-   ```
-
-3. **Run the development server**
-
-   ```bash
-   npm run dev
-   ```
-
-   Visit [http://localhost:3000](http://localhost:3000) to see the site in action.
+9. Open a **Pull Request (PR)** to the `main` branch of this repository
 
 ---
 

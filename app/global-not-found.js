@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import "./(frontend)/globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import CTAButton from "@/components/ui/CTAButton";
+import Button from "@/components/ui/Button";
 import Image from "next/image";
 import bg404_img from "@/public/images/bg404.png";
 
@@ -85,9 +85,9 @@ export default async function LostPage() {
           <h1 className="mb-[-0.4ch]">404</h1>
           <p>You might be lost.</p>
           <p>
-            <CTAButton href="/" className="mr-[1ch]">
+            <Button href="/" className="mr-[1ch]">
               Click this
-            </CTAButton>
+            </Button>
             to get back home.
           </p>
         </main>

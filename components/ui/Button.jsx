@@ -2,7 +2,7 @@ import Link from "next/link"
 import { twJoin } from "tailwind-merge"
 
 
-export default function CTAButton({children, className, ...props}) {
+export default function Button({children, className, ...props}) {
   return <Link
     {...props}
     className={twJoin(

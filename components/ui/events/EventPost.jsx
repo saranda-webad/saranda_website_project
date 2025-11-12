@@ -3,7 +3,7 @@
 import { useState } from "react";
 import PhotoOverlay from "@/components/ui/PhotoOverlay";
 import Image from "next/image"
-import CTAButton from "@/components/ui/CTAButton"
+import Button from "@/components/ui/Button"
 import { PortableText } from "next-sanity"
 import { twJoin } from "tailwind-merge";
 
@@ -39,14 +39,14 @@ export default function EventPost({event, className="", children, ...props}) {
           <PortableText value={event.description}/>
         </div>
         {event.links && event.links.map(
-          l => <CTAButton
+          l => <Button
             href={l.url}
             key={l._key}
             target="blank"
             className="m-0.5 py-[0.08rem]"
           >
             {l.text}
-          </CTAButton>
+          </Button>
         )}
         {children}
       </div>

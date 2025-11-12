@@ -1,5 +1,5 @@
 import EventPost from "@/components/ui/events/EventPost";
-import CTAButton from "@/components/ui/CTAButton";
+import Button from "@/components/ui/Button";
 import { getEventPosts } from "@/lib/cmsdata";
 
 
@@ -13,7 +13,7 @@ export default async function EventsPage({ params }) {
     <div className="
       w-9/10 max-w-[120ch] mx-auto mb-[2rem] mt-[-1rem]
     ">
-      <CTAButton href="/events/current">&lt; Back</CTAButton>
+      <Button href="/events/current">&lt; Back</Button>
     </div>
     {events.map(e => <EventPost event={e} key={e._id}/>)}
     {(events.length == 0) && (

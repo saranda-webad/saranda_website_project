@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CTAButton from "../CTAButton";
+import Button from "../Button";
 import { twJoin } from "tailwind-merge";
 import { getFeaturedPhotos } from "@/lib/cmsdata";
 
@@ -90,9 +90,9 @@ function CTAContainer({className="", ...props}) {
         ">
           <p>Check out our</p>
           <div className="flex gap-[1ch] items-center text-nowrap">
-            <CTAButton href="/events">Events</CTAButton>
+            <Button href="/events">Events</Button>
             &
-            <CTAButton href="/meetups">Meet Ups</CTAButton>
+            <Button href="/meetups">Meet Ups</Button>
           </div>
         </div>
       </div>

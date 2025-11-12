@@ -1,5 +1,5 @@
 import EventPost from "@/components/ui/events/EventPost";
-import CTAButton from "@/components/ui/CTAButton";
+import Button from "@/components/ui/Button";
 import { getEventPosts } from "@/lib/cmsdata";
 
 
@@ -17,7 +17,7 @@ export default async function EventsPage() {
       </p>
     )}
     <div className="w-9/10 max-w-[120ch] mx-auto mb-[2rem]">
-      <CTAButton href="/events/past">Past Events &gt;</CTAButton>
+      <Button href="/events/past">Past Events &gt;</Button>
     </div>
   </>;
 }
