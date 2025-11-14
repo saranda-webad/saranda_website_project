@@ -25,7 +25,7 @@ export default async function Footer({
   ];
   const all_quick_links = [
     ...footer_links["Quick Links"],
-    ...communities.map(c => ({url: c.slug, text: c.title})),
+    ...communities.map(c => ({url: "/community/" + c.slug, text: c.title})),
     ...extra_quick_links,
   ]
   const all_useful_links = [
