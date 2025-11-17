@@ -56,6 +56,24 @@ export default defineType({
             validation: rule => rule.email(),
           }),
           defineField({
+            name: "github",
+            type: "url",
+            title: "GitHub Profile",
+            description: "GitHub profile URL",
+          }),
+          defineField({
+            name: "linkedin",
+            type: "url",
+            title: "LinkedIn Profile",
+            description: "LinkedIn profile URL",
+          }),
+          defineField({
+            name: "instagram",
+            type: "url",
+            title: "Instagram Profile",
+            description: "Instagram profile URL",
+          }),
+          defineField({
             name: "image",
             type: "image",
             title: "Photo",

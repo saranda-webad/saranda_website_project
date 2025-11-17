@@ -95,18 +95,6 @@ export default function ForestBackground() {
         className="absolute inset-0 opacity-60"
         style={{ mixBlendMode: "screen" }}
       />
-      
-      {/* Gradient overlays for depth */}
-      <div className="absolute inset-0 bg-gradient-to-b from-primary-darker/60 via-transparent to-primary-darker/80" />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
-      
-      {/* Vignette effect */}
-      <div 
-        className="absolute inset-0" 
-        style={{
-          background: "radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.4) 100%)"
-        }}
-      />
     </div>
   );
 }
