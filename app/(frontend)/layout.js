@@ -10,6 +10,7 @@ import { FaPaintBrush } from "react-icons/fa";
 import { SiHomeassistantcommunitystore } from "react-icons/si";
 import { IoMdMicrophone } from "react-icons/io";
 import { getCommunityLinks } from "@/lib/cmsdata";
+import ScrollTopButton from "@/components/ui/know_us/ScrollTopButton";
 
 
 export default async function RootLayout({ children }) {
@@ -57,6 +58,7 @@ export default async function RootLayout({ children }) {
     <body className="bg-neutral-light">
       <Header navbarOptions={navbarOptions}/>
       {children}
+      <ScrollTopButton/>
       <Footer communities={communities}/>
     </body>
   );
