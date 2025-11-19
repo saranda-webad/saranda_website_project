@@ -7,10 +7,19 @@ import CommunitiesSection from "@/components/ui/home/CommunitiesSection";
 export default function Home() {
   return <>
     <Hero />
+    <DivForTransition />
     <NonHeroSections>
       <AboutSection />
       <FeaturedSection/>
       <CommunitiesSection/>
     </NonHeroSections>
   </>
+}
+
+function DivForTransition() {
+  return (
+    <div
+      className="w-full h-[5rem] bg-[#d1ccb0]"
+    ></div>
+  )
 }

@@ -42,7 +42,8 @@ export default function AboutSection({
           alt=""
           placeholder="blur"
           fill
-          className="-z-1"
+          className="-z-1 max-md:object-cover"
+          sizes="(max-width: 768px) 200vw, 100vw"
         />
         <div
           id={about_content_container_id}
