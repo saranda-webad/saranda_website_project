@@ -17,7 +17,8 @@ export default async function FeaturedSection({
     <section
       id="featured_section_id"
       className={twJoin(
-        `featured-section flex justify-center items-center relative h-[100vh]`,
+        `featured-section flex justify-center items-center relative h-[100vh]
+        my-[4rem]`,
         className
       )}
       {...props}

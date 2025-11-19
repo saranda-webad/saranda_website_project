@@ -16,7 +16,7 @@ export default function Hero({className, ...props}) {
     <main
       id={hero_section_id}
       className={twJoin(
-        `h-[100vh] overflow-y-clip relative`,
+        `h-[108vh] overflow-y-clip relative`,
         className
       )}
       {...props}
@@ -60,6 +60,7 @@ export default function Hero({className, ...props}) {
       <div
         className="
           absolute inset-0 bg-linear-to-t from-[#d1ccb0] to-[#d1ccb0]/0 to-10%
+          via-[#d1ccb0]/75 via-4%
         "
       ></div>
     </main>

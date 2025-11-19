@@ -11,7 +11,7 @@ export default function NonHeroSections({
   return <>
     <main
       className={twJoin(
-        "relative py-[10rem]",
+        "relative pb-[10rem] pt-[5rem]",
         className
       )}
       id="non_hero_sections_id"

@@ -2,7 +2,7 @@ import Image from "next/image"
 import { twJoin } from "tailwind-merge";
 import { getCommunityCards } from "@/lib/cmsdata";
 import Button from "../Button";
-import wooden_plank_img from "@/public/images/wooden_plank.png";
+import wooden_plank_img from "@/public/images/wooden_plank2.png";
 
 
 export default async function CommunitiesSection({
