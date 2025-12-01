@@ -1,4 +1,4 @@
-Copyright (c) [year] [project name contributors]
+Copyright (c) 2025 | Saranda WebOps Team
 
 Permission is hereby granted, free of charge, to:
   (a) Verified contributors of this project (“Contributors”), and
